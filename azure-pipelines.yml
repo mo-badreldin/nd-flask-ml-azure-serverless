@@ -1,15 +1,15 @@
 # Starter pipeline
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'ml-web-app'
-    appType: 'webAppLinux'
-    appName: 'webappbadreldin'
-    deployToSlotOrASE: true
-    resourceGroupName: 'web-app'
-    slotName: 'production'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    runtimeStack: 'PYTHON|3.8'
-    startUpCommand: 'python app.py'
+#- task: AzureWebApp@1
+#  inputs:
+#    azureSubscription: 'ml-web-app'
+#    appType: 'webAppLinux'
+#    appName: 'webappbadreldin'
+#    deployToSlotOrASE: true
+#    resourceGroupName: 'web-app'
+#    slotName: 'production'
+#    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+#    runtimeStack: 'PYTHON|3.8'
+#    startUpCommand: 'python app.py'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
